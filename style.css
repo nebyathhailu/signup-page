@@ -1,0 +1,117 @@
+h1{
+    color:rgb(197, 2, 197);
+    margin-left: 20%;
+    font-size: 50px;
+}
+#image{
+    height: 65%;
+    width: 85%;
+    border-radius: 50px; 
+    margin:30px;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 0px;
+}
+#container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    background-color: rgb(248, 220, 246);
+    width:80%;
+    padding: 50px;
+    margin-top: 30px;
+}
+#fl_name{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 68px;
+}
+#fl_name > input{
+    width:65%;
+    margin-top:5px;
+}
+.div1{
+    border-right:solid 1px rgb(197, 2, 197);
+    width:50%;
+    float:left;
+}
+.div2{
+    width:50%;
+    padding: 60px;
+    float:right;
+}  
+input{
+    font-weight: bold;
+    padding: 15px;
+    width:85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border:grey solid 1px;
+}
+.div2 > #p1 {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.div2 > #p2 {
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.div2 #p2 > a{
+    text-decoration: none;
+    color:rgb(197, 2, 197);
+    font-weight: bold;
+    font-size: 18px;
+}
+button{
+    width:90%;
+    background-color:rgb(197, 2, 197);
+    color:white;
+    border-style: none;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+#hr1{
+    display: inline-flex;
+    width:41.5%;
+}
+
+#hr2{
+    display: inline-flex;
+    width:41.5%;
+}
+span{
+    font-size:xx-large;
+    font-weight: bolder;
+    color:grey;
+    margin-top: 0px;
+}
+#icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 45px;
+}
+#i2{
+    position: absolute;
+    top: 47%;
+    right: 200px;
+    transform: translateY(-53%); 
+    font-size:30px;         
+}
+#i1{
+    position: absolute;
+    top: 55.5%;
+    right: 200px;
+    transform: translateY(-44.5%); 
+    font-size:30px;
+}
